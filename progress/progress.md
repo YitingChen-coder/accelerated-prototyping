@@ -68,3 +68,9 @@ Kept the interview-room direction and brought in the Rehearse → Reflect → Re
 
 ## v23 — Interview Room / Practice Memory
 After showing one complete practice cycle in v22, this version adds a sidebar and practice memory to show how feedback can carry into future sessions. Illustrative past sessions connect specific feedback to the next practice focus.
+
+## v24 — Interview Room / Practice Workspace
+After adding memory in v23, I changed the long scrolling page into a workspace with separate Practice, Interview, Feedback, Next Practice, and History views. The practice cycle now works as an actual product flow, with feedback shaping the next interview.
+
+## v25 — Rehearse / Final Practice Workspace
+Kept the workspace structure from v24, then reviewed the whole experience and simplified the navigation, feedback, and practice flow into the final direction. The next practice leads Home, and one coherent interview loop connects feedback to another focused attempt.
