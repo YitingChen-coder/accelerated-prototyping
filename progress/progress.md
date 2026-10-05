@@ -59,3 +59,12 @@ Turned a mock interview into a space mission with checkpoints, progress tracking
 
 ## v20 — School Report Card
 Tried a report card where different interview skills get grades and comments. This was the last broad idea before deciding which directions to bring into the final versions.
+
+## v21 — Interview Room / Landing Page Clarity
+I chose the interview-room direction from v04 for the final design. This version makes it clearer as a landing page, with a direct product explanation and a more prominent “Start a Mock Interview” action.
+
+## v22 — Interview Room / Full Practice Cycle
+Kept the interview-room direction and brought in the Rehearse → Reflect → Return flow from v10 to show the full practice cycle. Concrete sample feedback now leads to a focused recommendation and another mock interview.
+
+## v23 — Interview Room / Practice Memory
+After showing one complete practice cycle in v22, this version adds a sidebar and practice memory to show how feedback can carry into future sessions. Illustrative past sessions connect specific feedback to the next practice focus.
