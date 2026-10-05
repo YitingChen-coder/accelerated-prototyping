@@ -15,3 +15,18 @@ Made the page feel like an actual interview room instead of a traditional landin
 
 ## v05 — RPG
 Tried a game-like skill tree where interview prep feels more like leveling up.
+
+## v06 — Editorial Field Guide
+Explores an editorial spread with a cover story, product explanation, and clickable annotations on a sample answer. A field-test section invites visitors to start a mock interview.
+
+## v07 — Transit Map
+Explores interview preparation as a transit network with selectable practice lines and a journey planner. Each route leads to a matching sample question and self-review ticket.
+
+## v08 — Physical Practice Desk
+Explores a tactile desk with a notebook, reversible prompt cards, and a scratchpad. Turning over cards reveals sample coaching notes before starting a mock interview.
+
+## v09 — Sports Training Club
+Explores interview practice as a training session with a play diagram, drill selection, and timed warm-up. Visitors can pause, resume, and finish a drill with a self-review checklist.
+
+## v10 — Theatrical Playbill
+Explores a theatrical playbill and stage in three acts: rehearse, reflect, and return. The mock interview CTA opens a sequence of sample interviewer cues and self-review.

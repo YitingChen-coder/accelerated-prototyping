@@ -1,0 +1,11 @@
+const routes={coding:{name:'Coding',description:'A realistic problem and follow-up questions.',question:'Find the indices of two numbers in an array that add up to a target. Explain your approach before writing code.',review:'Did you explain a hash-map lookup, account for duplicate values, and state time and space complexity?'},system:{name:'System design',description:'Requirements, components, and scaling tradeoffs.',question:'Design a URL shortener. What requirements would you clarify, and how would you organize the main components?',review:'Did you clarify traffic and expiry requirements, explain your storage choice, and discuss a bottleneck?'},behavioral:{name:'Behavioral',description:'A realistic prompt about your experience and teamwork.',question:'Tell me about a time a technical project did not go as planned. What did you do, and what did you learn?',review:'Did you explain the context, your own contribution, the outcome, and what you would change next time?'}};
+let selected='coding';const ticket=document.querySelector('#ticket');const start=document.querySelector('#start');
+document.querySelector('#map').dataset.selected=selected;
+document.querySelectorAll('[data-route]').forEach(button=>button.addEventListener('click',()=>{
+ selected=button.dataset.route;const route=routes[selected];document.querySelector('#map').dataset.selected=selected;
+ document.querySelectorAll('[data-route]').forEach(b=>{b.classList.toggle('selected',b===button);b.setAttribute('aria-pressed',String(b===button));});
+ document.querySelector('#route-start').textContent=route.name+' practice';document.querySelector('#route-description').textContent=route.description;
+ ticket.hidden=true;start.hidden=false;ticket.querySelector('details').open=false;
+}));
+start.addEventListener('click',()=>{const route=routes[selected];document.querySelector('#ticket-title').textContent=route.name+' line';document.querySelector('#ticket-question').textContent=route.question;document.querySelector('#ticket-review').textContent=route.review+' This is a sample self-review checklist.';ticket.hidden=false;start.hidden=true;ticket.setAttribute('tabindex','-1');ticket.focus();});
+document.querySelector('#return').addEventListener('click',()=>{ticket.hidden=true;start.hidden=false;start.focus();});
