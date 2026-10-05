@@ -44,3 +44,18 @@ Presented interview preparation like a museum exhibition, with different rooms s
 
 ## v15 — Airline / Boarding Pass
 Used an airport and boarding-pass theme to frame interview prep as a journey toward the next opportunity.
+
+## v16 — Newspaper / Classifieds
+Tried a newspaper classifieds layout where users can browse different interview practice options and pick one to try.
+
+## v17 — Detective Case File
+Treated interview feedback like solving a case, using clues to figure out what went wrong and what to practice next.
+
+## v18 — Cooking / Recipe
+Used a recipe format to break a strong interview answer into ingredients, steps, and things to adjust next time.
+
+## v19 — Space Mission Control
+Turned a mock interview into a space mission with checkpoints, progress tracking, and a debrief at the end.
+
+## v20 — School Report Card
+Tried a report card where different interview skills get grades and comments. This was the last broad idea before deciding which directions to bring into the final versions.
